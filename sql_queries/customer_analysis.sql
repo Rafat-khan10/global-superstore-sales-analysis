@@ -79,13 +79,13 @@ WITH cte AS
    FROM cte3),
      cte5 AS
   (SELECT customer_segment,
-          COUNT(*) AS customer_numbers
+          COUNT(*) AS customers
    FROM cte4
    GROUP BY customer_segment
    ORDER BY COUNT(*) DESC)
 SELECT *,
-       CONCAT(ROUND(customer_numbers*100::NUMERIC/
-                      (SELECT SUM(customer_numbers)
+       CONCAT(ROUND(customers*100::NUMERIC/
+                      (SELECT SUM(customers)
                        FROM cte5), 2), '%') AS percentage
 FROM cte5
 
