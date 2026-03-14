@@ -7,9 +7,29 @@
 
 This project analyzes **4 years of transaction data (2011–2014)** from Global Superstore — an international retail company selling Furniture, Office Supplies, and Technology products.
 
-Using **SQL (PostgreSQL)** and **Power BI**, the analysis uncovers revenue trends, customer behavior, profitability drivers, and operational inefficiencies to support better business decision-making.
+Using **SQL (PostgreSQL)**, the analysis uncovers revenue trends, customer behavior, profitability drivers, and operational inefficiencies to support better business decision-making.
 
 ---
+
+## 📌 Business Problem
+
+Retail businesses often struggle to identify which customers, products, and operational strategies drive profitability.
+This project aims to analyze sales performance and identify the key drivers of revenue growth and profit margins.
+
+---
+
+## ❓ Key Business Questions Explored
+
+1. How does revenue change month-over-month?
+2.Which customers contribute the most revenue?
+3. How are customers segmented using RFM analysis?
+4.How do discounts impact profitability?
+5.Which shipping mode delivers the best value?
+6.Which products generate losses?
+7.How does shipping cost affect overall profit?
+*Insights derived from 12+ SQL analyses.*
+
+-----
 
 ## 📊 Dataset
 
@@ -18,9 +38,9 @@ Using **SQL (PostgreSQL)** and **Power BI**, the analysis uncovers revenue trend
 | Source | Global Superstore Sales Dataset |
 | Period | 2011 – 2014 |
 | Total Rows | 51,290 |
-| Total Customers | 4,446 |
-| Total Orders | 51,290 |
-| Total Revenue | $12.6M |
+| Total Customers | 4,873 |
+| Total Orders | 25,035 |
+| Total Revenue | $61.8M |
 | Categories | 3 (Furniture, Office Supplies, Technology) |
 
 ---
@@ -31,48 +51,7 @@ Using **SQL (PostgreSQL)** and **Power BI**, the analysis uncovers revenue trend
 |---|---|
 | PostgreSQL | Data storage & SQL queries |
 | pgAdmin 4 | Query execution & output |
-| Power BI | Dashboard & visualization |
 | Canva | Presentation slides |
-
----
-
-## ❓ Key Business Questions
-
-1. How does revenue change month-over-month?
-2. How does customer count grow month-over-month?
-3. Which customers contribute the most revenue?
-4. How are customers segmented using RFM analysis?
-5. What is the customer retention rate over time?
-6. Which product categories are most profitable?
-7. How do discounts impact profitability?
-8. How does delivery time vary by shipping mode?
-9. Which shipping mode delivers the best value?
-10. ...and more explored through 12+ SQL queries
-
----
-
-## 🔍 Key Findings
-
-- 📉 **95% of customers** never return after their first purchase
-- 💰 **High discounts** are causing **$814K in profit losses**
-- 📦 **Furniture profit margin is only 1.42%** despite generating $20M in revenue
-- ⭐ **Top 10% of customers** drive **37% of total revenue**
-- 🚚 **First Class shipping cost** is nearly **2x the profit** it generates for Furniture
-- 📈 **Revenue grew 87%** from 2011 to 2014
-- 📅 **January & July** show consistent revenue drops every year
-- 🎯 **41% of customers** fall in the "Needs Attention" RFM segment — biggest opportunity
-
----
-
-## 💡 Business Recommendations
-
-1. **Launch a 30-day onboarding email campaign** to reduce Month 1 churn (currently 95%)
-2. **Cap discounts at 20% maximum** — Medium & High discounts are generating losses
-3. **Review Furniture pricing strategy** — highest revenue category but lowest margin (1.42%)
-4. **Protect Champion segment (19%)** with exclusive VIP loyalty program
-5. **Switch Furniture orders to Standard Class shipping** to reduce costs
-6. **Run promotional campaigns in June & December** before seasonal revenue drops
-7. **Win-back campaign for At Risk + Lost customers (23%)** with personalized offers
 
 ---
 
@@ -84,18 +63,13 @@ global-superstore-sales-analysis/
 ├── data/
 │   └── Global_Superstore.csv
 │
-├── queries/
-│   ├── 01_data_overview.sql
-│   ├── 02_mom_revenue_growth.sql
-│   ├── 03_mom_customer_growth.sql
-│   ├── 04_high_value_customers.sql
-│   ├── 05_rfm_segmentation.sql
-│   ├── 06_profit_margin.sql
-│   ├── 07_discount_impact.sql
-│   ├── 08_shipping_cost_analysis.sql
-│   ├── 09_delivery_time_analysis.sql
-│   ├── 10_customer_retention.sql
-│   └── 11_churn_analysis.sql
+├── sql_queries/
+│   ├── data_overview.sql
+│   ├── sales_trend_analysis.sql
+│   ├── customer_analysis.sql
+│   ├── product_profitability.sql
+│   ├── discount_analysis.sql
+│   ├── shipping_analysis.sql
 │
 ├── presentation/
 │   └── global_superstore_analysis.pdf
@@ -110,6 +84,28 @@ global-superstore-sales-analysis/
 │
 └── README.md
 ```
+---
+
+## 🔍 Key Findings
+
+- ⭐ **Top 10% of customers** drive **37% of total revenue**
+- 💰 **High discounts** are causing **$814K in profit losses**
+- 📦 **Furniture profit margin is only 1.42%** despite generating $20M in revenue
+- 🚚 **First Class shipping cost** is nearly **2x the profit** it generates for Furniture
+- 📈 **Revenue grew 87%** from 2011 to 2014
+- 📅 **January & July** show consistent revenue drops every year
+- 🎯 **41% of customers** fall in the "Needs Attention" RFM segment — biggest opportunity
+
+---
+
+## 💡 Business Recommendations
+
+1. **Protect Champion segment (19%)** with exclusive VIP loyalty program
+2. **Cap discounts at 20% maximum** — Medium & High discounts are generating losses
+3. **Review Furniture pricing strategy** — highest revenue category but lowest margin (1.42%)
+4. **Switch Furniture orders to Standard Class shipping** to reduce costs
+5. **Run promotional campaigns in June & December** before seasonal revenue drops
+6. **Win-back campaign for At Risk + Lost customers (23%)** with personalized offers
 
 ---
 
