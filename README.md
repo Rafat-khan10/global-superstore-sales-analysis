@@ -11,6 +11,20 @@ Using **SQL (PostgreSQL)**, the analysis uncovers revenue trends, customer behav
 
 ---
 
+## 📊 Full Project Presentation
+
+- 👉 [View Online (Canva)][(your-canva-link)](https://www.canva.com/design/DAHDMKCvEQo/_ppOfkSlL0ZbgDHwMD3vKg/edit? utm_content=DAHDMKCvEQo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- 📥 [Download PDF](presentation/superstore_sales_analysis.pdf)
+```
+
+---
+
+- 👉 [View Online (Canva)](your-canva-link)
+- 📥 [Download PDF](presentation/superstore_analysis.pdf)
+```
+
+---
+
 ## 📌 Business Problem
 
 Retail businesses often struggle to identify which customers, products, and operational strategies drive profitability.
@@ -126,7 +140,7 @@ global-superstore-sales-analysis/
 ![Profit](screenshots/profit_margin.png)
 
 ### 🚚 Shipping Cost Analysis
-![Retention](screenshots/shipping_cost_analysis.png)
+![Shipping Cost](screenshots/shipping_cost_analysis.png)
 
 ---
 
@@ -136,7 +150,7 @@ global-superstore-sales-analysis/
 2. Download dataset from `data/` folder
 3. Create a new database in PostgreSQL
 4. Import `Global_Superstore.csv` into a table named `orders`
-5. Run queries from `queries/` folder in order (01 → 11)
+5. Run queries from `sql_queries/` folder in order (01 → 11)
 
 ---
 
