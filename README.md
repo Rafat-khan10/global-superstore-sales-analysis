@@ -33,6 +33,7 @@ This project aims to analyze sales performance and identify the key drivers of r
 5. Which shipping mode delivers the best value?
 6. Which products generate losses?
 7. How does shipping cost affect overall profit?
+ 
  *Insights derived from 12+ SQL analyses.*
 
 -----
