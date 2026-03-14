@@ -144,6 +144,6 @@ global-superstore-sales-analysis/
 
 **Rafat Khan** — Aspiring Data Analyst
 
-- 💼 LinkedIn: [Your LinkedIn URL]
+- 💼 LinkedIn: [[Your LinkedIn URL](https://www.linkedin.com/in/rafat-khan-7215953a1/)]
 - 🐙 GitHub: [github.com/Rafat-khan10](https://github.com/Rafat-khan10)
-- 📧 Email: [Your Email]
+- 📧 Email: [rafatkhan2210@gmail.com]
