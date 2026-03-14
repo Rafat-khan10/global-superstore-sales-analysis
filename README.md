@@ -18,6 +18,7 @@ Using **SQL (PostgreSQL)**, the analysis uncovers revenue trends, customer behav
 ```
 ---
 
+
 ## 📌 Business Problem
 
 Retail businesses often struggle to identify which customers, products, and operational strategies drive profitability.
