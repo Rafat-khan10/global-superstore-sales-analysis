@@ -20,12 +20,12 @@ This project aims to analyze sales performance and identify the key drivers of r
 
 ## ❓ Key Business Questions Explored
 1. How does revenue change month-over-month?
-2.Which customers contribute the most revenue?
+2. Which customers contribute the most revenue?
 3. How are customers segmented using RFM analysis?
-4.How do discounts impact profitability?
-5.Which shipping mode delivers the best value?
-6.Which products generate losses?
-7.How does shipping cost affect overall profit?
+4. How do discounts impact profitability?
+5. Which shipping mode delivers the best value?
+6. Which products generate losses?
+7. How does shipping cost affect overall profit?
 *Insights derived from 12+ SQL analyses.*
 
 -----
@@ -71,15 +71,15 @@ global-superstore-sales-analysis/
 │   ├── shipping_analysis.sql
 │
 ├── presentation/
-│   └── global_superstore_analysis.pdf
+│   └── superstore_analysis.pdf
 │
 ├── screenshots/
-│   ├── mom_revenue.png
+│   ├── mom_profit_growth.png
 │   ├── high_value_customers.png
 │   ├── rfm_segmentation.png
 │   ├── profit_margin.png
 │   ├── discount_impact.png
-│   └── customer_retention.png
+│   └── shipping_cost_analysis.png
 │
 └── README.md
 ```
