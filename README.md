@@ -19,7 +19,6 @@ This project aims to analyze sales performance and identify the key drivers of r
 ---
 
 ## ❓ Key Business Questions Explored
-
 1. How does revenue change month-over-month?
 2.Which customers contribute the most revenue?
 3. How are customers segmented using RFM analysis?
