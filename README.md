@@ -34,7 +34,7 @@ This project aims to analyze sales performance and identify the key drivers of r
 6. Which products generate losses?
 7. How does shipping cost affect overall profit?
  
-   *Insights derived from 12+ SQL analyses.*
+   *...and additional insights derived from 12+ SQL queries.*
 
 -----
 
