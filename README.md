@@ -13,7 +13,7 @@ Using **SQL (PostgreSQL)**, the analysis uncovers revenue trends, customer behav
 
 ## 📊 Full Project Presentation
 
-- 👉 [View Online (Canva)](your-canva-link)
+- 👉 [View Online (Canva)]([your-canva-link](https://www.canva.com/design/DAHDMKCvEQo/_ppOfkSlL0ZbgDHwMD3vKg/edit?utm_content=DAHDMKCvEQo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton))
 - 📥 [Download PDF](https://drive.google.com/file/d/1AeHczhlE5WKmTSsZdd_17LXhw7dCpGK8/view?usp=sharing)
 
 ---  
