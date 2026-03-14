@@ -13,10 +13,9 @@ Using **SQL (PostgreSQL)**, the analysis uncovers revenue trends, customer behav
 
 ## 📊 Full Project Presentation
 
-- 👉 [View Online (Canva)][(your-canva-link)](https://www.canva.com/design/DAHDMKCvEQo/_ppOfkSlL0ZbgDHwMD3vKg/edit? utm_content=DAHDMKCvEQo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- 📥 [Download PDF](presentation/superstore_sales_analysis.pdf)
+- 👉 [View Online (Canva)](https://www.canva.com/design/DAHDMKCvEQo/_ppOfkSlL0ZbgDHwMD3vKg/edit)
+- 📥 [Download PDF](presentation/superstore_analysis.pdf)
 ```
-
 ---
 
 - 👉 [View Online (Canva)](your-canva-link)
