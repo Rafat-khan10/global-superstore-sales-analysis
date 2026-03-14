@@ -111,7 +111,7 @@ global-superstore-sales-analysis/
 ## 📸 Project Snapshots
 
 ### 📈 Month-Over-Month Revenue Growth
-![MOM Revenue](screenshots/mom_revenue.png)
+![MOM Revenue](screenshots/mom_profit_growth.png)
 
 ### 👥 High Value Customer Analysis
 ![High Value](screenshots/high_value_customers.png)
@@ -125,8 +125,8 @@ global-superstore-sales-analysis/
 ### 📦 Profit Margin by Category
 ![Profit](screenshots/profit_margin.png)
 
-### 🔄 Customer Retention Analysis
-![Retention](screenshots/customer_retention.png)
+### 🚚 Shipping Cost Analysis
+![Retention](screenshots/shipping_cost_analysis.png)
 
 ---
 
