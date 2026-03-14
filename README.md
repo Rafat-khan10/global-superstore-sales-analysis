@@ -11,6 +11,13 @@ Using **SQL (PostgreSQL)**, the analysis uncovers revenue trends, customer behav
 
 ---
 
+## 📊 Full Project Presentation
+
+- 👉 [View Online (Canva)](your-canva-link)
+- 📥 [Download PDF](https://drive.google.com/file/d/1AeHczhlE5WKmTSsZdd_17LXhw7dCpGK8/view?usp=sharing)
+
+---  
+
 ## 📌 Business Problem
 
 Retail businesses often struggle to identify which customers, products, and operational strategies drive profitability.
